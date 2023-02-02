@@ -3,5 +3,8 @@ alunos = [
 
 ]
 
-
-puts "O aluno #{alunos[0][:nome]} ficou com a nota #{alunos[0][:nota]} em #{alunos[0][:disciplina]}."
+if alunos[0][:nota] >= 10
+    puts "O aluno #{alunos[0][:nome]} foi aprovado em #{alunos[0][:disciplina]}."
+else
+    puts "O aluno #{alunos[0][:nome]} foi reprovado em #{alunos[0][:disciplina]}"
+end
