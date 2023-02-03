@@ -8,3 +8,5 @@ if alunos[0][:nota] >= 10
 else
     puts "O aluno #{alunos[0][:nome]} foi reprovado em #{alunos[0][:disciplina]}"
 end
+
+
